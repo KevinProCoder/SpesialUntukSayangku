@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #ff1493;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#messageButton {
+    background-color: #ff6347;
+    color: white;
+}
+
+#colorButton {
+    background-color: #4682b4;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ff4500;
+    animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
